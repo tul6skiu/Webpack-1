@@ -1,0 +1,16 @@
+{
+  "name": "webback",
+  "version": "1.0.0",
+  "scripts": {
+     "start": "webpack serve --env development",
+     "build": "webpack --env production"
+  },
+  "devDependencies": {
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2",
+    "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.2",
+    "css-loader": "^7.1.2"
+  }
+}
